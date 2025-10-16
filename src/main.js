@@ -1,3 +1,3 @@
-console.log("🌙 انشاءالله - سیستم المپیکی فعال شد!");
-console.log("👤 توسط: ramin.edjlal1359@gmail.com");
-console.log("🚀 آماده استفاده در GitHub!");
+console.log("🚀 Olympic System Activated");
+console.log("👤 By: ramin.edjlal1359@gmail.com");
+console.log("⭐ InshaAllah - Ready for GitHub");
