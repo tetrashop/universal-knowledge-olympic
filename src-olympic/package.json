@@ -1,0 +1,13 @@
+{
+  "name": "universal-knowledge-olympic",
+  "version": "2.0.0",
+  "type": "module",
+  "description": "سیستم دانش جهانی المپیکی",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "echo 'تست سیستم المپیکی'"
+  },
+  "author": "ramin.edjlal1359@gmail.com",
+  "license": "MIT"
+}
