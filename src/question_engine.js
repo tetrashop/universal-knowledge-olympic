@@ -1,4 +1,4 @@
-echo '// موتور تولید سوالات هوشمند
+// موتور تولید سوالات هوشمند
 class QuestionEngine {
     constructor() {
         this.categories = ["علوم", "ریاضی", "تاریخ", "ادبیات", "برنامه‌نویسی"];
@@ -14,7 +14,7 @@ class QuestionEngine {
             },
             ریاضی: {
                 آسان: "حاصل ۲ + ۲ چیست؟",
-                متوسط: "مشتق x² چیست؟", 
+                متوسط: "مشتق x² چیست؟",
                 سخت: "انتگرال ∫sin(x)dx را حل کنید."
             }
         };
@@ -30,4 +30,4 @@ class QuestionEngine {
     }
 }
 
-module.exports = QuestionEngine;' > src/question_engine.js
+module.exports = QuestionEngine;
