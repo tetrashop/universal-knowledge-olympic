@@ -1,5 +1,4 @@
-cat > src/evaluation_system.js << 'EOF'  
-// سیستم ارزیابی و نمره‌دهی خودکار
+echo '// سیستم ارزیابی و نمره‌دهی خودکار
 class EvaluationSystem {
     constructor() {
         this.leaderboard = [];
@@ -12,7 +11,7 @@ class EvaluationSystem {
         return {
             isCorrect: isCorrect,
             score: score,
-            correctAnswer: question.correctAnswer, 
+            correctAnswer: question.correctAnswer,
             timeTaken: timeTaken
         };
     }
@@ -29,12 +28,7 @@ class EvaluationSystem {
     }
 }
 
-module.exports = EvaluationSystem;
-EOF                score: score,
-                lastActive: new Date().toLocaleDateString('fa-IR')
-            });
-        }
-
+module.exports = EvaluationSystem;' > src/evaluation_system.js
         // مرتب‌سازی بر اساس امتیاز
         this.leaderboard.sort((a, b) => b.score - a.score);
         
