@@ -1,5 +1,5 @@
-const QuestionEngine = require('./question_engine');
-const EvaluationSystem = require('./evaluation_system');
+import QuestionEngine from './question_engine.js';
+import EvaluationSystem from './evaluation_system.js';
 
 console.log("🏆 Universal Knowledge Olympic System");
 console.log("🚀 Activated Successfully");
