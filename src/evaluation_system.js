@@ -1,4 +1,4 @@
-cat > src/evaluation_system.js << 'EOF'
+cat > src/evaluation_system.js << 'EOF'  
 // سیستم ارزیابی و نمره‌دهی خودکار
 class EvaluationSystem {
     constructor() {
@@ -12,7 +12,7 @@ class EvaluationSystem {
         return {
             isCorrect: isCorrect,
             score: score,
-            correctAnswer: question.correctAnswer,
+            correctAnswer: question.correctAnswer, 
             timeTaken: timeTaken
         };
     }
@@ -30,11 +30,7 @@ class EvaluationSystem {
 }
 
 module.exports = EvaluationSystem;
-EOF        } else {
-            this.leaderboard.push({
-                userId: userId,
-                username: `کاربر_${userId}`,
-                score: score,
+EOF                score: score,
                 lastActive: new Date().toLocaleDateString('fa-IR')
             });
         }
