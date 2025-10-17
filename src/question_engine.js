@@ -1,4 +1,3 @@
-# ایجاد فایل question_engine.js
 cat > src/question_engine.js << 'EOF'
 // موتور تولید سوالات هوشمند
 class QuestionEngine {
@@ -11,7 +10,7 @@ class QuestionEngine {
         const templates = {
             علوم: {
                 آسان: "عنصر اصلی هوا چیست؟",
-                متوسط: "فرآیند فتوسنتز چگونه انجام می‌شود؟",
+                متوسط: "فرآیند فتوسنتز چگونه انجام می‌شود؟", 
                 سخت: "نظریه نسبیت عام اینشتین چه می‌گوید؟"
             },
             ریاضی: {
@@ -25,7 +24,7 @@ class QuestionEngine {
             question: templates[category][difficulty],
             options: ["گزینه ۱", "گزینه ۲", "گزینه ۳", "گزینه ۴"],
             correctAnswer: 0,
-            explanation: "توضیح پاسخ صحیح",
+            explanation: "توضیح پاسخ صحیح", 
             category: category,
             difficulty: difficulty
         };
@@ -33,5 +32,4 @@ class QuestionEngine {
 }
 
 module.exports = QuestionEngine;
-EOF
-module.exports = QuestionEngine;
+EOFmodule.exports = QuestionEngine;
