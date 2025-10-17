@@ -1,3 +1,5 @@
+# ایجاد فایل question_engine.js
+cat > src/question_engine.js << 'EOF'
 // موتور تولید سوالات هوشمند
 class QuestionEngine {
     constructor() {
@@ -21,18 +23,15 @@ class QuestionEngine {
 
         return {
             question: templates[category][difficulty],
-            options: this.generateOptions(category, difficulty),
+            options: ["گزینه ۱", "گزینه ۲", "گزینه ۳", "گزینه ۴"],
             correctAnswer: 0,
             explanation: "توضیح پاسخ صحیح",
             category: category,
             difficulty: difficulty
         };
     }
-
-    generateOptions(category, difficulty) {
-        // تولید گزینه‌های تصادفی
-        return ["گزینه ۱", "گزینه ۲", "گزینه ۳", "گزینه ۴"];
-    }
 }
 
+module.exports = QuestionEngine;
+EOF
 module.exports = QuestionEngine;
