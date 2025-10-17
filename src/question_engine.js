@@ -1,5 +1,5 @@
 // موتور تولید سوالات هوشمند
-class QuestionEngine {
+export default class QuestionEngine {
     constructor() {
         this.categories = ["علوم", "ریاضی", "تاریخ", "ادبیات", "برنامه‌نویسی"];
         this.difficulties = ["آسان", "متوسط", "سخت"];
