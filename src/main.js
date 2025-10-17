@@ -1,5 +1,5 @@
-echo 'const QuestionEngine = require("./question_engine");
-const EvaluationSystem = require("./evaluation_system");
+const QuestionEngine = require('./question_engine');
+const EvaluationSystem = require('./evaluation_system');
 
 console.log("🏆 Universal Knowledge Olympic System");
 console.log("🚀 Activated Successfully");
@@ -29,4 +29,4 @@ leaderboard.slice(0, 5).forEach((user, index) => {
 });
 
 console.log("----------------------------------------");
-console.log("🎯 سیستم المپیاد دانش آماده استفاده است!");' > src/main.js
+console.log("🎯 سیستم المپیاد دانش آماده استفاده است!");
