@@ -29,5 +29,3 @@ export default class QuestionEngine {
         };
     }
 }
-
-module.exports = QuestionEngine;
