@@ -27,5 +27,3 @@ export default class EvaluationSystem {
         return this.leaderboard.slice(0, 5);
     }
 }
-
-module.exports = EvaluationSystem;
