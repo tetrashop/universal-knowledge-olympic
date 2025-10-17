@@ -1,5 +1,5 @@
 // سیستم ارزیابی و نمره‌دهی خودکار
-class EvaluationSystem {
+export default class EvaluationSystem {
     constructor() {
         this.leaderboard = [];
     }
