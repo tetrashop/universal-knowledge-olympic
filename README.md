@@ -112,3 +112,8 @@ MIT License
   <sub>ساخته شده با ❤️ توسط تیم TetraShop</sub>
 </div>
 <!-- Trigger deploy: Mon Aug 17 01:50:46 +0330 2026 -->
+
+## 🌐 دیپلوی
+
+- **URL:** [https://universal-knowledge-olympic.vercel.app](https://universal-knowledge-olympic.vercel.app)
+- **وضعیت:** ✅ فعال
